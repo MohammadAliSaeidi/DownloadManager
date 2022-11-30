@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Net;
 using static UnityEngine.Debug;
 
-namespace Services.DownloadService
+namespace Services.Download
 {
 	public class DownloadProgress
 	{
@@ -24,7 +24,7 @@ namespace Services.DownloadService
 			this.downloadRequest = downloadRequest;
 
 			// for log
-			fileInfoStr = $"\n<b>File URL:</b> {downloadRequest.FileWebURLAddress}" +
+			fileInfoStr = $"<b>File URL:</b> {downloadRequest.FileWebURLAddress}" +
 						$"\n<b>File save path:</b> {downloadRequest.SavePath}";
 		}
 
@@ -76,12 +76,14 @@ namespace Services.DownloadService
 
 			if (downloadResult.Error == null)
 			{
-				Log("<color=#00B149><b>Downloaded the file successfully</b></color>" + fileInfoStr);
+				Log("<color=#00B149><b>Downloaded the file successfully</b></color>" +
+					$"\n{fileInfoStr}");
 			}
 			else
 			{
 				Log("<color=#CF6679><b>Download was failed</b></color>" +
-						$"\n<color=#CF6679><b>Error message:</b></color> {downloadResult.Error.Message}" + fileInfoStr);
+						$"\n<color=#CF6679><b>Error message:</b></color> {downloadResult.Error.Message}" +
+						$"\n{fileInfoStr}");
 			}
 
 			if (downloadResult.Cancelled)

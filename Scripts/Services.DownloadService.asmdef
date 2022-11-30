@@ -1,6 +1,6 @@
 {
     "name": "Services.DownloadService",
-    "rootNamespace": "Services.DownloadService",
+    "rootNamespace": "Services.Download",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

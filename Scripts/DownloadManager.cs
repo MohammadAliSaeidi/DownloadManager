@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Services.DownloadService
+namespace Services.Download
 {
 	/// <summary>
 	/// Download manager for downloading files asynchronously from url

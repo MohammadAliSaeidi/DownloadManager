@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Net;
 
-namespace Services.DownloadService
+namespace Services.Download
 {
 	internal class ParallelDownloadService
 	{

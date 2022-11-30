@@ -1,4 +1,4 @@
-﻿namespace Services.DownloadService
+﻿namespace Services.Download
 {
 	public class DownloadingProgressState
 	{

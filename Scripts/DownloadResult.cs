@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace Services.DownloadService
+namespace Services.Download
 {
 	public class DownloadResult : AsyncCompletedEventArgs
 	{

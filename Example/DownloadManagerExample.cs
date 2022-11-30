@@ -1,4 +1,4 @@
-using Services.DownloadService;
+using Services.Download;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
