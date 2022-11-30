@@ -57,7 +57,15 @@ namespace Services.DownloadService
 
 		public DownloadingProgressState GetDownloadingState()
 		{
-			return new DownloadingProgressState(IsDownloading, BytesReceived, ProgressPercentage, TotalBytesToReceive);
+			Log($"<b>Download Id:</b> {downloadId}\n" +
+				$"<b>Is Downloading:</b> {IsDownloading}" +
+				$"<b>Bytes Received:</b> {BytesReceived}" +
+				$"<b>Progress Percentage:</b> {ProgressPercentage}" +
+				$"<b>Total Bytes To Receive:</b> {TotalBytesToReceive}");
+
+			var downloadingState = new DownloadingProgressState(IsDownloading, BytesReceived, ProgressPercentage, TotalBytesToReceive);
+
+			return downloadingState;
 		}
 
 		private void CompleteEventHandler(object sender, AsyncCompletedEventArgs e)
