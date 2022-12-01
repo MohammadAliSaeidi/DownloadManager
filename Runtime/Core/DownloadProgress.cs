@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Net;
 using static UnityEngine.Debug;
 
-namespace Services.Download
+namespace Chromium.Services.Download
 {
 	public class DownloadProgress
 	{

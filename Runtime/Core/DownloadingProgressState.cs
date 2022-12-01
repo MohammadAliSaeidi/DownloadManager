@@ -1,4 +1,4 @@
-﻿namespace Services.Download
+﻿namespace Chromium.Services.Download
 {
 	public class DownloadingProgressState
 	{

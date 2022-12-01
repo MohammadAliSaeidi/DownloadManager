@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace Services.Download
+namespace Chromium.Services.Download
 {
 	public class DownloadResult : AsyncCompletedEventArgs
 	{

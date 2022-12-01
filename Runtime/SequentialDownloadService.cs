@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Services.Download
+namespace Chromium.Services.Download
 {
 	internal class SequentialDownloadService
 	{

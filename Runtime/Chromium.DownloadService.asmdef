@@ -1,6 +1,6 @@
 {
-    "name": "Services.DownloadService",
-    "rootNamespace": "Services.Download",
+    "name": "Chromium.DownloadService",
+    "rootNamespace": "Chromium.Services.Download",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

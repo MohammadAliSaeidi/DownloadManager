@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Services.Download
+namespace Chromium.Services.Download
 {
 	/// <summary>
 	/// Download manager for downloading files asynchronously from url

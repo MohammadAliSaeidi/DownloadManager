@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Net;
 
-namespace Services.Download
+namespace Chromium.Services.Download
 {
 	internal class ParallelDownloadService
 	{
