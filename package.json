@@ -1,20 +1,14 @@
 {
-  "name": "com.chromium.DownloadService",
+  "name": "com.chromium.downloadservice",
   "version": "0.1.0-preview.1",
   "displayName": "Download Service",
   "description": "A service for managing downloads",
   "unity": "2021.3",
-  "unityRelease": "8f1",
   "dependencies": {
   },
-  "keywords": [
-    "download",
-    "download manager",
-    "download managing",
-    "download service"
-  ],
   "author": {
     "name": "MohammadAli Saeidi",
     "email": "1saeidima@gmail.com",
+	"url": ""
   }
 }
